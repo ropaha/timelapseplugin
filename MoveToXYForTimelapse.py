@@ -43,7 +43,7 @@ class MoveToXYForTimelapse(Script):
                     "description": "Y coordinate for timelapse frames.",
                     "unit": "mm",
                     "type": "float",
-                    "default_value": 0
+                    "default_value": 200
                 },
                 "travelSpeed":
                 {
@@ -97,14 +97,14 @@ class MoveToXYForTimelapse(Script):
                     "description": "If you use Z-hop on filament retraction, put in the height so it can be ignored. It should be different from your layer height. This should also be set in the Octoprint timelapse settings.",
                     "unit": "mm",
                     "type": "float",
-                    "default_value": 0
+                    "default_value": 1
                 },
                 "UseZHop":
                 {
                     "label": "Z-Hop on retraction",
                     "description": "Use Z-Hop when moving to frame position if retraction is enabled above.",
                     "type": "bool",
-                    "default_value": false
+                    "default_value": true
                 },
                 "Buffersize":
                 {
