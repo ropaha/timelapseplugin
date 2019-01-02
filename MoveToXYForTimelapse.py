@@ -81,7 +81,7 @@ class MoveToXYForTimelapse(Script):
                     "description": "Retraction length if retraction is enabled above",
                     "unit": "mm",
                     "type": "float",
-                    "default_value": 1
+                    "default_value": 5
                 },
                 "RetractionSpeed":
                 {
